@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+
+}
+.container
+{
+   
+    background-color: white;
+    height: 80vh;
+    width: 40vw;
+    margin-left: 30%;
+    border-radius: 10%;
+    margin-top: 5%;
+    }
+    input{
+        background-color: rgb(7, 7, 228);
+        height: 10vh;
+        width: 28vw;
+        margin-top: 10%;
+        margin-left: 20%;
+
+
+    }
+
+    .container1{
+        padding-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item
+    {
+        background-color: gray;
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+        
+    }
+

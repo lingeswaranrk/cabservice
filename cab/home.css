@@ -1,0 +1,102 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    background-color: purple;
+    color: yellow;
+    height: 20vh;
+    width: 100vw;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+    
+
+}
+.b
+{
+    display: flex;
+}
+.c{
+    height: 40vh;
+    width: 40vw;
+    background-image: url(download.jfif);
+    background-size: 40vw 40vh;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+  padding-top: 40px;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes example{
+    0%{color: red;}
+    25%{color: yellow;}
+    50% {color: white;}
+    75%{color: green;}
+    100%{color: red;}
+}
+@keyframes example1{
+    0%{color: red;}
+   50%{color:black}
+    100%{color: red;}
+}
+.d{
+    height: 40vh;
+    width: 40vw;
+    background-image: url(image2.jfif);
+    background-size: 40vw 40vh;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+  padding-top: 40px;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.e{
+    height: 40vh;
+    width: 40vw;
+    background-image: url('taxi.jfif');
+    background-size: 40vw 40vh;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+  padding-top: 40px;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+.f{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(map.jfif);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    color: seagreen;
+    display: flex;
+  padding-top: 40px;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}

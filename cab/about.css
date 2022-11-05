@@ -1,0 +1,19 @@
+body{
+    background-image:url('pexels-photo-3617465.jpeg');
+   
+
+
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10vh;
+    font-size: larger;
+   
+}
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 40vh;
+}

@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>
+        ticket booking
+    </title>
+</head>
+<link rel="stylesheet" href="booking.css">
+<body>
+ <style>
+        table,
+        th {
+            border: 1px solid
+        }
+        .t1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 20px;
+            background-color: bisque;
+            margin-top: 20px;
+            margin-left: 30vw;
+            height: 550px;
+            width: 500px;
+            
+   
+        }
+    </style>
+    <div class="t1 ">
+        <div class="r1 ">
+    <p> ENTER THE DETAILS</p>
+    <table style="color: green;">
+    <form action="print.html" method="post">
+            <tr>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="title">TITLE</td>
+                        <td>
+                            <select>
+                                <option value="1">Mr.</option>
+                                <option value="2">Ms.</option>
+                                <option value="3">Mrs.</option>
+                            </select>
+                        </td>
+                        <tr>
+                            <td>
+                                <label for="upload">UPLOAD DOCUMENT</label>
+                            </td>
+                            <td>
+                                <input type="file" name="fileupload" accept="image/*"/>
+                            </td>
+                        </tr>
+            </tr>
+            <tr>
+                <td>
+                    <label for="first name ">FIRST NAME</label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname" placeholder="your first name" required>
+                </td>
+            <tr>
+                <td>
+                    <label for="last name ">LAST NAME </label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" placeholder="your last name" required>
+                </td>
+            <tr>
+                <td><label for="GENDER ">GENDER:</label></td>
+                <td><input type="radio" id="GENDER" name="GENDER" value="MALE">Male
+                    <input type="radio" id="GENDER" name="GENDER" value="FEMALE">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DATE  ">DATE :</label></td>
+                <td><input type="date" id="frame" name="DATE AND TIME" required></td>
+            <tr>
+                <td><label for="DATE of birth "> DATE of birth</label></td>
+                <td><input type="date" id="date" name="DATE of birth" placeholder="your date of birth" required></td>
+            <tr>
+                <td>
+                    <label for="ADDRESS">ADDRESS:</label>
+                </td>
+                <td><textarea id="ADDRESS" name="ADDRESS" rows="6" cols="20" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="number">NUMBER:</label></td>
+                <td><input type="number" id="number" name="number" required></td>
+            <tr>
+            <tr>
+                <td><label for="email ">email</label>:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            <tr>
+            <tr>
+                <td> <label for="contact">can we contact you?</label></td>
+                <td>
+                    <input type="radio" id="yes" name="contact" value="1"/>yes
+                    <input type="radio" id="no" name="contact" value="2"/>no
+                    </tr>
+            <tr>
+                <td> <label for="communication">communication preference</label></td>
+                <td>
+                    <input type="radio" id="cok" name="hok" value="1"/>sms
+                   <input type="radio" id="tact" name="hok" value="2"/>mail</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="checkbox" id="tandc" name="tandc" value="1" required> I agree to the <a href="tandc.html" target="_blank" required>Terms and conditions</a></td>
+                    </tr>
+            </form>
+            
+            
+        </table>
+        <br>
+        <tr>
+            <td>
+                <input type="reset" id="reset" name="reset" style="margin-left:-20px ;">
+            </td>
+            <td>
+                <input type="submit" id="submit" //onclick="savedata()" name="submit " style="margin-left:70px ;">
+            </td>
+        </tr> 
+    </div>
+</div>
+                <!-- <script>
+                function savedata(){
+                    // debugger
+                    var fname=document.getElementById('fname').value;
+                    var lname=document.getElementById('lname').value;
+                    var address=document.getElementById('ADDRESS').value;
+                    alert('..'+fname);
+                    localStorage.setItem('fname',fname);
+                    localStorage.setItem('lname',lname);
+                    localStorage.setItem('address',address);
+                }
+            
+            </script> -->
+        
+    </body>        
+   
+   
+</html>
